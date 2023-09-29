@@ -1,0 +1,84 @@
+.link {
+    text-decoration: none;
+}
+
+.item_container {
+    width: 250px;
+    min-height: 408px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+}
+
+.item_container img {
+    width: 100%;
+    transition: .3s;
+}
+
+.item_container img:hover{
+    transform: scale(1.05);
+}
+
+.game_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .3rem;
+}
+
+.buy_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttons_container {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+}
+
+.buy_button_change {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #03034c;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.buy_button_change:hover {
+    background: #3d3d82;
+
+}
+
+.buy_btn {
+    width: 100%;
+    height: 1.8rem;
+    border: none;
+    background: #7cc5fa;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: .3s;
+}
+
+.buy_btn:hover {
+    background: white;
+    color: #7cc5fa;
+    border: solid #7cc5fa 2px;
+}
+
+.img_btn{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}

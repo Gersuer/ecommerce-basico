@@ -1,0 +1,22 @@
+.container {
+    min-width: 200px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card {
+    width: 300px;
+    height: 175px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-size: cover;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}

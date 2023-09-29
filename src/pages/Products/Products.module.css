@@ -1,0 +1,10 @@
+.products_container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem .8rem;
+    flex-wrap: wrap;
+    overflow: auto;
+}
